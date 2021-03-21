@@ -15,8 +15,9 @@
 header {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 340%;
     padding: 10px 10px;
+    flex-wrap: ;
 }
 
 header a {

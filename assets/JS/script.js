@@ -1,25 +1,32 @@
 
 var startButton = document.getElementById("start-btn")
-
+var questionContainerElement = document.getElementById("question-container")
+=
 startButton.addEventListener("click", startQuiz);
+var questionElement= document.getElementById("questions")
+
+
 
 
 // start the game 
 function startQuiz() {
     var startButton = document.getElementById("start-btn");
     startButton.remove();
-    console.log("start the game")
+    nextButton()
 }
 
 function nextButton () {
-    
-
+   showQuestion 
 }
+
+function showQuestion(questions) {}
+questionElement.innertext = question.question
 
 function answers() {
 
 }
 
+//questions array 
 var questions = [
 
     {
