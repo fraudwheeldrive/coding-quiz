@@ -1,25 +1,35 @@
 
+//elements and event listeners
+
 var startButton = document.getElementById("start-btn")
+var nextButton = document.getElementById("next-btn")
 var questionContainerElement = document.getElementById("question-container")
-=
+var questionElement= document.getElementById("question")
+var answerButtonElement = document.getElementById("answer-buttons")
+
+
 startButton.addEventListener("click", startQuiz);
-var questionElement= document.getElementById("questions")
+nextButton.addEventListener("click", nextQuestion)
 
 
-
+var randomQuestions, currentQuestionIndex
 
 // start the game 
 function startQuiz() {
     var startButton = document.getElementById("start-btn");
     startButton.remove();
-    nextButton()
+    randomQuestions = question.sort(()=> Math,random() - .5)
+    currentQuestionsIndex = 0
+    nextQuestion()    
+}
+// set question 
+function nextQuestion() {
+showQuestion    
+   
 }
 
-function nextButton () {
-   showQuestion 
-}
-
-function showQuestion(questions) {}
+// show question from array
+function showQuestion(question) {}
 questionElement.innertext = question.question
 
 function answers() {
