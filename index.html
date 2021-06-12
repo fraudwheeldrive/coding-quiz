@@ -8,31 +8,67 @@
     <title>Coding Quiz</title>
 </head>
 
-<div class="header">
-    <header>
-        <a href="highscore.html"> High Scores</a>
-        <p id="timer">00:00</p>
-        </header>
 
 <body>
-    </div>    
     <div class="container">
+        <section>
+        <header>
+            <a href="highscore.html"> High Scores</a>
+            <p id="timer">00:00</p>
+            </header>
+    </div>    
+    <div class="questions">
         <div id="question-container">
-            <h1> Welcome to the CODING QUIZ!</h1>
-            <div id="question"> question</div>
-            <div id="answer-buttons" class="btn-grid">
+        <h1> Question </h1>
+         </div>
+         <div class="flex-btn" id="choices"></div>
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
-            </div>
-        </div> 
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start Quiz</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <Div class="hide" id ="correct">
+            <h3> Correct</h3>
+        </div>
+        <div class="hide" id ="incorrect">
+            <h3>Incorrect</h3>
+        </div>
+        <h2 id ="timer"></h2>
     </div>
-    </div>
-    
-</body>
+</section>
+</div>
+
+<!--quiz finishes-->
+<div id= "finish" class= "hide">
+    <h1>Congratulations, you Finished the Quiz</h1>
+    <div id= "results"></div>
+    <span> Please enter you Initials and save your score</span>
+
+    <!-- high score form-->
+    <form>
+        <input 
+        type="text"
+        name="playername"
+        id="playername"
+        placeholder="Enter Username"
+        />
+        <button
+        class="btn"
+        type="submit"
+        id="scoreBtn"
+        onclick="saveScore(event)"
+        >
+        Save
+    </button>
+    </form>
+
+<a class= "btn" id="highscore" href= "highscore.html"> High Scores</a>
+</div>
+
 <script src="assets/JS/script.js"></script>
+<script src="assets/js/highscores.js"></script>
+<script src="assets/js/scorelist.js>"></script>
+
+</body>
+
 </html>
