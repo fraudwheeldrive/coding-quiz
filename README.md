@@ -28,28 +28,41 @@ once the questions are cycled thru you will be given the opportunity to save you
 
 
 ## Image of Webiste 
-![webiste image](https://github.com/fraudwheeldrive/password-generator/blob/main/assets/images/Password%20generator%20image.PNG)
+# Home Page
+![home](https://github.com/fraudwheeldrive/coding-quiz/blob/main/assets/images/home-screen.PNG)
+# Quiz Page 
+![quiz](https://github.com/fraudwheeldrive/coding-quiz/blob/main/assets/images/quiz-screen.PNG)
+# Correct Answer
+![correct](https://github.com/fraudwheeldrive/coding-quiz/blob/main/assets/images/correct.PNG)
+# Incorrect Answer
+![incorrect](https://github.com/fraudwheeldrive/coding-quiz/blob/main/assets/images/incorrect.PNG)
+# End Screen 
+![end](https://github.com/fraudwheeldrive/coding-quiz/blob/main/assets/images/end-screen.PNG))
+# High Scores 
+![highscores](https://github.com/fraudwheeldrive/coding-quiz/blob/main/assets/images/high-score.PNG)
+
 
 ## Website location 
-website can be viewed at https://fraudwheeldrive.github.io/password-generator/
+website can be viewed at https://fraudwheeldrive.github.io/coding-quiz/
 
 ## Github Repository 
-Github Repository can be viewed at https://github.com/fraudwheeldrive/password-generator
+Github Repository can be viewed at https://github.com/fraudwheeldrive/coding-quiz
 
 ##  Built With 
-Password Generator is built with:
+* Coding-Quiz  is built with:
 *HTML
 *CSS
 *Javascript
 ## Contribution 
-HTML and CSS Styling provided by U of T SCS Coding bootcamp, 
-Javascript code done by Andrew core 
+
+HTML, CSS, & Javascript code done by Andrew core 
 
 ## References 
 ### https://developer.mozilla.org/en-US/
-### https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
-### https://www.w3schools.com/
-### https://www.w3schools.com/java/java_while_loop.asp
+### https://www.w3schools.com/jsref/met_storage_getitem.asp
+### https://www.w3schools.com/jsref/prop_win_localstorage.asp
+### https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+### https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 
 
 
