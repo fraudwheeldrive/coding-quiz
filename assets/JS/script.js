@@ -7,7 +7,7 @@ var questionElement = document.querySelector("#question-container");
 var rightAnswer = document.querySelector("#correct");
 var wrongAnswer = document.querySelector("#incorrect");
 var quizEnd = document.querySelector("#finish");
-var answerButtonElement = document.querySelector("answer-buttons");
+var answerButtonElement = document.querySelector("#answer-buttons");
 var activeTimer = document.querySelector("#timer");
 var timeRemaining = 70;
 var displayQuestions, questionIndex;
@@ -59,7 +59,7 @@ var startGame = function () {
   startButton.setAttribute("class", "hide");
   displayQuestions = questions;
   questionIndex = 0;
-  quizEnd.setAttribute("class", "hide")
+  questionsDiv.removeAttribute("class", "hide")
   startQuiz();
 };
 
@@ -71,7 +71,7 @@ var startQuiz = function () {
 // show question from array
 var showQuestions = function (question) {
   questionElement.innerHTML = question.question;
-  question.answers.forEach((answer) => {
+  question.answers.forEach(answer => {
     var button = document.createElement("button");
     button.innerText = answer.text;
     button.setAttribute("class", "btn");
@@ -80,7 +80,7 @@ var showQuestions = function (question) {
     }
     button.addEventListener("click", answerChoice);
     answersList.appendChild(button);
-  });
+  })
 };
 
 var reset = function () {

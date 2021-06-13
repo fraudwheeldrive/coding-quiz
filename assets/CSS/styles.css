@@ -32,7 +32,7 @@ body {
 }
 
 #start {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -49,8 +49,9 @@ body {
   margin: 0 auto;
   line-height: 50px;
 }
+
 .flex-btn {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -73,9 +74,20 @@ body {
 }
 
 .hide {
-    display: none;
-  }
+  display: none;
+}
 
+#finish.hide {
+  display: none;
+}
+
+#correct.hide {
+  display: none;
+}
+
+#incorrect.hide {
+  display: none;
+}
 
 #correct,
 #incorrect {
@@ -134,4 +146,10 @@ form {
   line-height: 50px;
 }
 
- 
+#question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
