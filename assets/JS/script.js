@@ -9,7 +9,7 @@ var wrongAnswer = document.querySelector("#incorrect");
 var quizEnd = document.querySelector("#finish");
 var answerButtonElement = document.querySelector("#answer-buttons");
 var activeTimer = document.querySelector("#timer");
-var timeRemaining = 70;
+var timeRemaining = 120;
 var displayQuestions, questionIndex;
 
 //questions array
@@ -52,6 +52,14 @@ var questions = [
         correct: false,
       },
     ],
+    question: "<h1>what is a </h1>",
+    answers: [
+      { text: "a value that is only true", correct: false },
+      { text: "a cube to make soup", correct: false },
+      { text: "a value that is only true or false", correct: true },
+      { text: " a made up word", correct: false },
+    ],
+
   },
 ];
 
