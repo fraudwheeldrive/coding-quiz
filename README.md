@@ -50,9 +50,9 @@ Github Repository can be viewed at https://github.com/fraudwheeldrive/coding-qui
 
 ##  Built With 
 * Coding-Quiz  is built with:
-*HTML
-*CSS
-*Javascript
+* HTML
+* CSS
+* Javascript
 ## Contribution 
 
 HTML, CSS, & Javascript code done by Andrew core 
